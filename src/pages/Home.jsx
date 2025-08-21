@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { TiWeatherPartlySunny } from "react-icons/ti";
 import { useNavigate } from "react-router";
 import { toast } from "react-toastify";
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
   }
   return (
     <div className="p-10 items-center gap-4 flex flex-col justify-center">
+      <TiWeatherPartlySunny size={50} />
       <h1 className="text-3xl font-semibold">Welcome to Weather App</h1>
 
       {/* city selection */}
